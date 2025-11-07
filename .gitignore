@@ -1,5 +1,75 @@
+# ======================================
+# Python & Virtual Environment
+# ======================================
 __pycache__/
-data/raw/
 *.pyc
-*.json
+*.pyo
+*.pyd
+*.pkl
+*.log
+*.tmp
+
+# Virtual environment folders
 venv/
+.env/
+.env.bak/
+.venv/
+ENV/
+env/
+
+# ======================================
+# OS & IDE Files
+# ======================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# VSCode
+.vscode/
+.history/
+.settings/
+
+# ======================================
+# PyTorch / ML Artifacts
+# ======================================
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.npz
+*.npy
+
+# TensorBoard & logs
+runs/
+logs/
+events.out.tfevents.*
+
+# ======================================
+# Project-Specific Folders
+# ======================================
+# Raw datasets
+data/raw/
+data/interim/
+data/processed/
+
+# Tokenizer and checkpoints
+gutenberg_tokenizer.json
+checkpoints/
+outputs/
+
+# Temporary notebooks or test files
+*.ipynb_checkpoints
+notebooks/.ipynb_checkpoints/
+
+# ======================================
+# System cache / others
+# ======================================
+.cache/
+.idea/
+*.swp
